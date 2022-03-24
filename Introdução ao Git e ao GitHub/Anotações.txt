@@ -1,3 +1,31 @@
 Link para download do Git: https://git-scm.com/
 
 O Git Bash é um terminal estendido para otimizar o uso do Git
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Comandos dentro do terminal Git Bash
+
+git clone (Para clonar meu repositorio do Git no meu computador local)
+
+cd (Comando para entrar dentro do seu repositorio)
+
+git status (Comando para entender o que foi feito dentro da pasta e repositorio)
+
+E como fazer para o Git entender que efetivamente quero enviar essa pasta para o controle de versão? 
+	O comando é git add
+
+git add (Comando para adicionar a pasta criada no computador local, para o controle de versão no Git)
+	Mas ele não vai automaticamente, é necessario dar outro comando (git commit -m "mais comentario")
+	ex: git commit -m "Inclusão das anotações do curso de Git/GitHub"
+
+git commit -m "comentario a ser incluso" (comando para add pasta local do git)
+	Dar comando git status para verificar o que foi feito
+	É necessario dar um push
+
+git push origin main (Comando para enviar todos os commits localmente para a nuvem)
+
+
+
+
+
